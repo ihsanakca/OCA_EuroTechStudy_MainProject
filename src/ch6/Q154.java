@@ -9,7 +9,7 @@ public class Q154 {
 	        try{
 	            while(true){                  
 	                myList.add("My String");
-//	                System.out.println("While loop");   // to see the what happened in runtime
+	           //     System.out.println("While loop");   // to see the what happened in runtime
 	            }
 	        }catch (RuntimeException re){
 	            System.out.println("Cought a RuntimeException");

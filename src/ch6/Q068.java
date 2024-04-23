@@ -8,8 +8,9 @@ public class Q068{
 	public static void main (String[] args) {
 		try {
 			method1();
+			
 		}
-		catch(MyException61 ne){
+		catch(MyException ne){
 			System.out.print("A");
 		}
 	}
@@ -17,7 +18,7 @@ public class Q068{
 	public static void method1(){ // line n1
 	
 		try {
-			throw 3 > 10 ? new MyException61() : new IOException();
+			throw 3  > 10 ? new MyException61() : new IOException();
 		} catch (IOException ie) {
 			System.out.println("I");
 		} catch (Exception re) {

@@ -12,8 +12,8 @@ public class Q022 {
 			System.out.println("ArithmeticException");
 		}catch (Exception e) {
 			System.out.println("Invalid calculation");
-		}		
-	//	System.out.println("Answer = " + ans);	// line n2
+		}
+	//	 System.out.println("Answer = " + ans);	// line n2
 		
 	}
 }
