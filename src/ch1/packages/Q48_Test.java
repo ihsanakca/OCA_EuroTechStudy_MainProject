@@ -4,7 +4,6 @@ package ch1.packages;
 public class Q48_Test {  //public class Test
 	// line n1
 
-
 	
 //	public static void main(String[] args) {
 //		// TODO Auto-generated method stub

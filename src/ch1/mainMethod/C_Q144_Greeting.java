@@ -21,7 +21,7 @@ B)	javac Greeting.java Duke	>>compiling without arguments
 	java Greeting 
 	
 C)	javac Greeting.java			>> OK
-	java Greeting Duke Ahmet
+	java Greeting Duke
 	
 C)	javac Greeting.java			
 	java Greeting.class Duke	>> running without extension (.class)
