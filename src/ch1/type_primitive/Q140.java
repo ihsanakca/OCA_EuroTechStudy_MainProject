@@ -3,7 +3,14 @@ public class Q140 {
 	public static void main(String[] args) {
 		int iVar = 100;
 		float fVar = 100.100f;
-		double dVar = 123;
+		double dVar = 123d;
+
+		float f = 25;
+		int f1 = 50;
+
+		System.out.println(f + f1);
+
+
 		fVar = iVar;
 	//	iVar = fVar; 			//Type mismatch: cannot convert from float to int
 	//	fVar = dVar;			//Type mismatch: cannot convert from double to float

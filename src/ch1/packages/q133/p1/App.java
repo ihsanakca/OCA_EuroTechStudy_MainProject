@@ -21,7 +21,7 @@ public class App {
  * Which is true?
 
  A. The App.class file is stored within the p1 folder. 	???
-    The Test.class file is stored within the p2 sub-folder of p1. 
+    The Test.class file is stored within the p2 sub-folder of p1. OK
  B. The App class is accessible within the Test class without an important statement. 		>> need import to access
  C. Import p1.App; is used to access the App class within the Test class. 					>> OK
  D. It is optional to have the package statement as the first line of class definitions. 	>> PackageDeclaration must be first

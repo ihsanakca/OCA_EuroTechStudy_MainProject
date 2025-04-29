@@ -14,6 +14,7 @@ public class Q143_Fieldint { //Public class Fieldinit
 	public static void main(String[] args) {
 		Q143_Fieldint f=new Q143_Fieldint();
 		f.printAll();
+
 	}
 
 }

@@ -3,10 +3,11 @@ package ch1.type_wrapper;
 public class Q149_App {  //public class App
 	public static void main(String[] args) {
 		Boolean[] bool = new Boolean[2];
-		bool[0] = new Boolean(Boolean.parseBoolean("tRue"));
+		bool[0] = new Boolean(Boolean.valueOf("tRue"));
 		bool[1] = new Boolean(null);
 
 		System.out.println(bool[0] + " " + bool[1]);
+
 
 	}
 }

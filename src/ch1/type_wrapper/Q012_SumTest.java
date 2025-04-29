@@ -12,6 +12,8 @@ public class Q012_SumTest { //public class  SumTest
 	public static void doSum(float x, float y) {
 		System.out.println("float sum is " + (x + y));
 	}
+
+
 	
 	public static void doSum(int x, int y) {   //bunu kapatırsak hangisine gider
 		System.out.println("int sum is " + (x + y));

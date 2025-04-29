@@ -2,19 +2,19 @@ package ch1.type_primitive;
 
 public class Q050 {
 	public static void main(String[] args) {
-			//	double y1 = 203.22; float fit = (float) y1; //Type mismatch: cannot convert from double to float
+	//			double y1 = 203.22; float fit = (float) y1; //Type mismatch: cannot convert from double to float
 		
-		//double y1 = 203.22;
-		
-		//float fit =  (float) y1;
+		double y1 = 203.22;
+
+		float fit =  (float) y1;
 
 
-	//	float fit1 = (float) 1_11.0;
+	float fit1 = (float) 1_11.0;
 
-		//Float fit2  = 100.00; 						// Type mismatch: cannot convert from double to Float
+	//	Float fit2  = 100.0; 						// Type mismatch: cannot convert from double to Float
 		Float fit2  =  100.00F;
 
-		int y2 = 100; 
+		int y2 = 100;
 		float fit3= (float) y2;
 
 		float fit4 = 100.00F;

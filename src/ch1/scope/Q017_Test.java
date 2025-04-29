@@ -17,7 +17,7 @@ public class Q017_Test { // public class Test
 		int x = 3, y =5;
 		Q017_Test obj = new Q017_Test(x, y);
 		System.out.println(x + " " +y);
-		System.out.println(obj.x+" "+obj.y);
+		System.out.println(obj.x + " " + obj.y);
 	}
 }
 /*What is the result?  (same 209)

@@ -2,12 +2,14 @@ package ch1.type_wrapper;
 
 import ch1.packages.q181.B;
 
+
+
 public class Q161 {
 
 	public static void main(String[] args) {
-		//Boolean  available = "TRUE";
+		Boolean  available = true;
 	//	Boolean available = new Boolean(Boolean.valueOf("TRUE"));
-		String tmAuthor="author",author="MC Donald";
+		String tmpAuthor="author", author="MC Donald";
 		Double price =200D;
 		Integer pages =20;
 

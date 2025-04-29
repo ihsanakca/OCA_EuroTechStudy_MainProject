@@ -12,6 +12,13 @@ public class A_Q90 {
 	//	String s4 = (String)(s3 * s2);   //line 2
 	//	System.out.println("Sum is "+ s4);
 
+	String s =	String.valueOf(s2 * s3);
+
+		System.out.println(s);
+		String str = "240000";
+
+		Integer.parseInt(str);
+
 
 	}
 }

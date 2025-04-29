@@ -8,6 +8,12 @@ public class B_Q122 {
 	//	String s3 = (String)(s1+s2);		//line n1
 		Long s4 = (long) s1+s2; 			//line n2
 		System.out.println("Sum is " + s4);
+
+		short sh = 200;
+		int i = 400;
+
+		long l = sh + i;
+		System.out.println(l);
 	}
 
 }
