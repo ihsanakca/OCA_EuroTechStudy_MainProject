@@ -18,6 +18,8 @@ public class Q199 {
                 : stuff.equals("Movie")
                     ? "White"
                     : "No Result";
+
+        System.out.println("res = " + res);
     }
 }
 

@@ -10,6 +10,10 @@ public class Q167 {
 
         int d = (a < b) ? (a < c) ? a : (b < c) ? b : c : x;
 
+
+
+
+
         System.out.println(d);
 
 

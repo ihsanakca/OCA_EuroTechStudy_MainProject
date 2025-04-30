@@ -1,10 +1,14 @@
 package ch2.if_else;
 
 public class Q065 {
-	public static void main(String[] args) {
-        float var1 = (12_345.01 <= 123_45.00)? 12_456 : 124_56.02f;
+    public static void main(String[] args) {
+        float var1 = (12_345.01 <= 123_45.00) ? 12_456 : 124_56.02f;
         float var2 = var1 + 1024;
         System.out.print(var2);
+
+        long x =  2555555555L;
+
+        float z = (float) 1.0;
 
 
     }
@@ -21,9 +25,9 @@ D. 13480.02		>> OK
  */
 
 /**** NOTES
-  if (12_345.01 <= 123_45.00)
-     System.out.println(12_456);
-  else
-     System.out.println(124_56.02f);
+ if (12_345.01 <= 123_45.00)
+ System.out.println(12_456);
+ else
+ System.out.println(124_56.02f);
  */
  
