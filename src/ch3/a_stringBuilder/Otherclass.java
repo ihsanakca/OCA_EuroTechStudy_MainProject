@@ -12,5 +12,11 @@ public class Otherclass {
         String str = sb.toString();
 
         System.out.println("str = " + str);
+
+        String name = "Ahmet";
+
+        StringBuilder sb1 = new StringBuilder(name);
+        sb1.reverse();
+        System.out.println("sb1 = " + sb1);
     }
 }
