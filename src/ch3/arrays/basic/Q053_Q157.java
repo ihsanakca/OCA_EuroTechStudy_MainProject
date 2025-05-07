@@ -9,7 +9,7 @@ public class Q053_Q157 {
 		for (int i = 0; i < num.length; i++) {  			// num.length = 1
 			for (int j = 0; j < num[i].length; j++) {  		// num[i].length =3
 				num [i][j]= 10;  
-				//System.out.println("num["+i+"]["+j+"]="+num [i][j]);
+			//	System.out.println("num["+i+"]["+j+"]="+num [i][j]);
 			}
 		}
 	}

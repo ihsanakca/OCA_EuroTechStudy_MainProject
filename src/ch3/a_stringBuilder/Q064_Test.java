@@ -18,6 +18,9 @@ public class Q064_Test {
         System.out.println("Hello "+ new StringBuilder("Java SE 8"));
         System.out.println("Hello "+ new MyString("Java SE 8"));
 
+
+
+
     }
 }
 

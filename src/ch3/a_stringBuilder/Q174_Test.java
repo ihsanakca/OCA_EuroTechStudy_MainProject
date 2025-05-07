@@ -22,6 +22,7 @@ public class Q174_Test {
 		System.out.println("Hello "+ new MyString("Java SE 8").msg);
 
 
+
 	}   
 
 }
