@@ -6,7 +6,7 @@ public class Q036 {
 		String[] arr = {"A", "B", "C", "D"};
 		for (int i = 0; i < arr.length; i++) {
 			System.out.print(arr[i]+ " " ); 
-			if (arr[i].equals("C")) {  
+			if (arr[i].equals("C")) {
 				continue; 				// goes back start of  the loop
 			}				
 			System.out.println("Work Done"); 

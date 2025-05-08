@@ -18,12 +18,12 @@ public class Otherclass {
 
     @Override
     public String toString() {
-        return i +" "+ str;
+        return i + " " + str;
     }
 
     public static void main(String[] args) {
 
-        Otherclass o4 = new Otherclass(25,"Asa");
+        Otherclass o4 = new Otherclass(25, "Asa");
         System.out.println(o4.toString());
         System.out.println(o4);
 
@@ -49,7 +49,7 @@ public class Otherclass {
         LocalDateTime localDateTime = LocalDateTime.of(2024, 2, 5, 7, 40, 50);
         System.out.println(localDateTime);
 
-        LocalDateTime localDateTime1 = LocalDateTime.of(date1,time1);
+        LocalDateTime localDateTime1 = LocalDateTime.of(date1, time1);
         System.out.println(localDateTime1);
 
         LocalDate date22 = LocalDate.of(2020, Month.JANUARY, 20);
@@ -66,7 +66,21 @@ public class Otherclass {
         LocalDate date66 = LocalDate.parse("2024-01-22");
         System.out.println(date66);
 
+        System.out.println("---------------------------");
 
+        LocalDate date77 = LocalDate.of(2020, Month.JANUARY, 20);
+        LocalTime time77 = LocalTime.of(11, 12, 34);
+        LocalDateTime dateTime = LocalDateTime.of(date77, time77);
+
+        System.out.println(date.format(DateTimeFormatter.ISO_LOCAL_DATE));  //sadece date
+        System.out.println(time.format(DateTimeFormatter.ISO_LOCAL_TIME)); //sadece time
+        System.out.println(dateTime.format(DateTimeFormatter.ISO_LOCAL_DATE_TIME)); // her ikisi birden
+
+        System.out.println(date77.format(DateTimeFormatter.ISO_LOCAL_DATE_TIME));
+        System.out.println(time77.format(DateTimeFormatter.ISO_LOCAL_DATE_TIME));
+
+        System.out.println(date77.format(DateTimeFormatter.ISO_LOCAL_DATE));
+        System.out.println(time77.format(DateTimeFormatter.ISO_LOCAL_TIME));
 
 
     }

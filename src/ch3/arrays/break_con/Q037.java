@@ -8,8 +8,9 @@ public class Q037 {
 		int count = 0;
 		for (int e : data) {
 			if (e !=key) {
-				continue; 
-			//	count++; 			// cannot come after continue
+
+				continue;
+			//	count++;		// cannot come after continue
 			}
 
 		}

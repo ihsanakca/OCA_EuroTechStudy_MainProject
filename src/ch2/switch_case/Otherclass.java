@@ -10,14 +10,12 @@ public class Otherclass {
         int y = 1;
         List<Integer> list = new ArrayList<>();
 
-        switch (list.get(0)){
+        switch (i){
             case 5 :
-                System.out.println(1);
+                System.out.println(5);
                 break;
             case 2 :
                 System.out.println(2);
-                System.out.println(25);
-                y =5;
                 break;
             default:
                 System.out.println(3);

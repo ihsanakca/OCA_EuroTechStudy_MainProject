@@ -3,21 +3,23 @@ package ch3.arrays.break_con;
 import java.util.Arrays;
 import java.util.Iterator;
 import java.util.List;
+import java.util.ListIterator;
 
 public class Q152 {
 
 	
 	public static void main(String[] args) {
-		List <String> lst=Arrays.asList("A","B","C","D");
-		Iterator<String> itr=lst.iterator();
+		List <String> lst = Arrays.asList("A","B","C","D");
+		Iterator<String> itr = lst.iterator();
+
 		while(itr.hasNext()){
-			String e=itr.next();
+			String e = itr.next();
 			if (e=="C") {
 				break;
 			}
 			else {
 				//continue;
-				System.out.println(e);
+				System.out.print(e);
 			}
 
 		}

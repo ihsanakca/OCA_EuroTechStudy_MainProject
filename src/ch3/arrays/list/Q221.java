@@ -11,7 +11,7 @@ public class Q221 {
         colors.add("red");
         colors.add("yellow");
         colors.remove(2);
-        colors.remove("yellow");
+        colors.add(3,"cyan");
         System.out.println(colors);
     }
 }

@@ -9,6 +9,7 @@ public class Q108 {
                 System.out.println("Work done");
                 break;
             }
+
             continue;   // no effect. already it returns to the beginning of the loop.
         }
     }
