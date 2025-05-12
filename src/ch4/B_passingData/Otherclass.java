@@ -2,7 +2,7 @@ package ch4.B_passingData;
 
 public class Otherclass {
     public static void main(String[] args) {
-        int num = 25;
+        Integer num = 25;
         doubleBy(num);
         System.out.println(num);
 
@@ -20,7 +20,7 @@ public class Otherclass {
         System.out.println("sb = " + sb);
     }
 
-    static int doubleBy(int num){
+    static int doubleBy(Integer num){
         return num*2;
     }
 

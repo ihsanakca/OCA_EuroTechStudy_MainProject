@@ -1,4 +1,4 @@
-package ch4.E_staticNonstatic;
+package ch4.D_staticNonstatic;
 
  class Q032 {  // class X
 	int i;

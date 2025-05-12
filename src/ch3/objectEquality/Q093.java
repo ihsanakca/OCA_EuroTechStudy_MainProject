@@ -1,7 +1,7 @@
 package ch3.objectEquality;
 
 class Product{
-	int id;
+	 int id;
 	String name;
 	
 	public  Product(int id, String name) {
@@ -22,8 +22,9 @@ public  class Q093 {
 	boolean ans1 = p1==p2;
 	boolean ans2 = p1.name.equals(p2.name);
 	System.out.println(ans1 + ":"+  ans2);
-	
-    }
+
+
+	}
 }
 	/*
 	 * What is the result?

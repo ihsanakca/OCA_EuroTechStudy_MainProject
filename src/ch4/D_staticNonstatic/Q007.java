@@ -1,4 +1,4 @@
-package ch4.E_staticNonstatic;
+package ch4.D_staticNonstatic;
 
 public class Q007 { // public class X
 	static int i;  

@@ -23,7 +23,7 @@ public class Q135 {
 			};
 
 			System.out.println(planets);
-			System.out.println(planets[2].name);
+			System.out.println(planets[2]);
 		    System.out.println(planets[2].moons);
 
 		}

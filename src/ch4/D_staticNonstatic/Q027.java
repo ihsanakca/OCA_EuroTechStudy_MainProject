@@ -1,14 +1,9 @@
-package ch4.E_staticNonstatic;
+package ch4.D_staticNonstatic;
 
 class CheckingAccount {
-	public int amount;
+	 public int amount;
 	// line n1
 
-	
-}
-
-public class Q027{
-	
 	public static void main(String[] args) {
 		CheckingAccount acc = new CheckingAccount();
 		// line n2	

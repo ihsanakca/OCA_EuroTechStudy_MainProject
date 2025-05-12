@@ -5,8 +5,8 @@ class Product{
 }
 public class Q216_Test {  // public class Test
    public  void  updatePrice(Product product,double price){
-        price=price*2;
-        product.price=product.price+price;
+        price = price*2;
+        product.price = product.price+price;
    }
 
     public static void main(String[] args) {

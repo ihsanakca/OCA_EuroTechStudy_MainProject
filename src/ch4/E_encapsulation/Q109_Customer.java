@@ -1,4 +1,4 @@
-package ch4.D_encapsulation;
+package ch4.E_encapsulation;
 //Given these two classes
 
 public class Q109_Customer {

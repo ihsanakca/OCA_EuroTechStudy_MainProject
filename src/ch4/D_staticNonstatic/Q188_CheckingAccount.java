@@ -1,4 +1,4 @@
-package ch4.E_staticNonstatic;
+package ch4.D_staticNonstatic;
 
 public class Q188_CheckingAccount {				//	acct.amount=88
     public int amount;

@@ -9,6 +9,7 @@ class MyString {
         this.msg =msg;
 
     }
+
 }
 //Test.java:
 //package p1;

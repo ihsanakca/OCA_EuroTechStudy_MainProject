@@ -1,4 +1,4 @@
-package ch4.D_encapsulation;
+package ch4.E_encapsulation;
 
 public class Q089 {
 

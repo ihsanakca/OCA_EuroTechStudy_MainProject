@@ -1,9 +1,9 @@
-package ch4.E_staticNonstatic;
+package ch4.D_staticNonstatic;
 
 public class Q112_App {
      int count;
     public static void displayMsg(){
-      //  count++;                                         //line1
+     //   count++;                                         //line1
      //   System.out.println("Welcome"+"Visit Count"+count); //line2
     }
 
