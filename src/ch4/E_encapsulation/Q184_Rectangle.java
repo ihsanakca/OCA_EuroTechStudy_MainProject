@@ -7,10 +7,12 @@ public class Q184_Rectangle {
 
     public void setLength(double length){
         this.length = length;
+        setArea();
 
     }
     public void setHeigth(double heigth){
         this.heigth = heigth;
+        setArea();
 
     }
 

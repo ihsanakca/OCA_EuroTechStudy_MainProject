@@ -9,7 +9,7 @@ public class Q119_App {  // public class App
 	}
 	public void setGreet(){
 		String greet="Good Day!";
-		this.greet=greet;
+		this.greet = greet;
 	}
 
 	public static void main(String[] args) {

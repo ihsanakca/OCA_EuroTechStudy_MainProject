@@ -2,22 +2,15 @@ package ch4.E_encapsulation;
 //Given these two classes
 
 public class Q109_Customer {
-//	ElectricAccount acct=new ElectricAccount();
+	Q109_ElectricAccount acct=new Q109_ElectricAccount();
 	public  void useElectricity(double kWh){
-	//	acct.addKWh(kWh);
-		
+		acct.addKWh(kWh);
+
+
 	}
 }
 
-//public class ElectricAccount{
-//		private  double kWh;
-//		private double rate=0.07;
-//		private double bill;
-//		//line1
-//
-//	}
-//}
-/**NOTES 
+/**NOTES
  Attention to access modifiers (private, public, default, protected)
  Understanding the requirements from text is important
  Encapsulating Data, p.205

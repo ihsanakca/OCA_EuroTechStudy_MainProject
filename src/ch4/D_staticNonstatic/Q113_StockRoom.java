@@ -1,27 +1,31 @@
 package ch4.D_staticNonstatic;
 
 public class Q113_StockRoom {
-	private  static int stock=10;
-	private static  int qty;
+    private static int stock = 10;
+    private static int qty;
 
-	public  void purchase(int qty){stock +=qty;
-	//this.qty=qty;
-	}
-	public  void sell(int qty){stock -=qty;
-	//this.qty=qty;
-	}
-	public static void printStock(String action){
-		System.out.println(action+":"+ qty + " items. Stock in Hand: " +stock);
-	}
+    public void purchase(int qty) {
+        stock += qty;
+        this.qty = qty;
+    }
 
-	public static void main(String[] args) {
-		Q113_StockRoom k1=new Q113_StockRoom();
-		k1.sell(5);
-		k1.printStock("Sold");
-		Q113_StockRoom k2=new Q113_StockRoom();
-		k2.purchase(5);
-		k2.printStock("Purchased");
-	}
+    public void sell(int qty) {
+        stock -= qty;
+        this.qty=qty;
+    }
+
+    public  static void  printStock(String action) {
+        System.out.println(action + ":" + qty + " items. Stock in Hand: " + stock);
+    }
+
+    public static void main(String[] args) {
+        Q113_StockRoom k1 = new Q113_StockRoom();
+        k1.sell(5);
+        k1.printStock("Sold");
+        Q113_StockRoom k2 = new Q113_StockRoom();
+        k2.purchase(5);
+        k2.printStock("Purchased");
+    }
 }
 /*You want the code to print:
 Sold: 5 items. Stock in Hand: 5 
@@ -34,8 +38,9 @@ Which action enables the code to print this?
 Answer: C
  */
 
-/** NOTES
- stock must be static. In the other case, for each object creation it starts 10
-
- Also, modify sold and purchased method to update global qty value
+/**
+ * NOTES
+ * stock must be static. In the other case, for each object creation it starts 10
+ * <p>
+ * Also, modify sold and purchased method to update global qty value
  */

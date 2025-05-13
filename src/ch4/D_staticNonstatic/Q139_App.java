@@ -11,6 +11,7 @@ public class Q139_App {
 	public static void main(String[] args) {
 		Q139_App.displayMsg(); 
 		displayMsg();   //line 2
+
 	}
 
 }

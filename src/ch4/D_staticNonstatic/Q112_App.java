@@ -1,7 +1,7 @@
 package ch4.D_staticNonstatic;
 
 public class Q112_App {
-     int count;
+      int count;
     public static void displayMsg(){
      //   count++;                                         //line1
      //   System.out.println("Welcome"+"Visit Count"+count); //line2

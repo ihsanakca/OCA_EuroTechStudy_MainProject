@@ -4,7 +4,6 @@ public class Q147_Employee {
 	private String name;
 	private int age;
 	private int salary;
-
 	public Q147_Employee(String name, int age) {
 		setName(name);
 		setAge(age);
@@ -35,7 +34,7 @@ class Test{
 		Q147_Employee e2 = new Q147_Employee("Jack", 50);
 		Q147_Employee e3 = new Q147_Employee("Chloe", 40, 5000);
 
-	//	e1.printDetails();
+//		e1.printDetails();
 		e2.printDetails();
 		e3.printDetails();
 	}

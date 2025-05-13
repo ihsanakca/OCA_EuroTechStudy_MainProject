@@ -8,8 +8,6 @@ public class Q033_Employee {
 		//line1
 
 	}
-
-
 	public String toString() {
 		return name + ":" + contract + ":" + salary;	
 	}

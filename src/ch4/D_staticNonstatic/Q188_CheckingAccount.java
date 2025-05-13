@@ -21,7 +21,8 @@ public class Q188_CheckingAccount {				//	acct.amount=88
     public static void main(String[] args) {
     	Q188_CheckingAccount acct = new Q188_CheckingAccount((int)(Math.random()*1000));
         // line n1
-         System.out.println(acct.getAmount());
+
+        System.out.println(acct.getAmount());
      }
 
 }
