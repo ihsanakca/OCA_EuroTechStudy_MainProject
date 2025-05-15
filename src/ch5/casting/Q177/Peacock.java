@@ -14,9 +14,11 @@ public class Peacock extends Bird {
 	public static void main(String[] args) {
 		/* insert code snippet here */
 
+	//	Bird b = new Peacock (); // limit access
+	//	Peacock p = (Peacock) b; // restore the access rights
+
 		Bird b = new Peacock (); // limit access
 		Peacock p = (Peacock) b; // restore the access rights
-		
 		p.fly();
 		p.dance();
 	}

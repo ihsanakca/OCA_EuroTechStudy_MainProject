@@ -15,7 +15,7 @@ public class Q136 {
 	arrayList.replaceAll(s-> s.concat("Group"));
 	System.out.println(arrayList);
 	
-	
+
 	}	
 }
 /*

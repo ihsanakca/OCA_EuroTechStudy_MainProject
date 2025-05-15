@@ -33,7 +33,7 @@ public class Q057_Test {
 											new Person("Smith", 38));
 		// Line n1
 
-		checkAge (iList, p -> p.getAge() > 40);
+		checkAge (iList,(Person p) -> {return p.getAge() > 40;});
 	}
 }
 

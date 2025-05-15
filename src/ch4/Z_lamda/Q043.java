@@ -11,7 +11,7 @@ public class Q043 {
 			List<String> arrList = new ArrayList<>(Arrays.asList(arr));
 			
 			if(arrList.removeIf((String s) -> {return s.length() <= 2;} )){ 
-		//		System.out.println(s +" removed");
+			//	System.out.println(s +" removed");
 			}
 			System.out.println(arrList);
 

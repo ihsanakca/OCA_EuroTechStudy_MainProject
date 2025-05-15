@@ -20,7 +20,7 @@ class S2 extends S1 {
 public class Q186{
     public static void main(String[] args) {
         S2 sobj = new S2(); 
-        sobj.display(10, 100);
+        sobj.display( 10,100);
        
     }
 }

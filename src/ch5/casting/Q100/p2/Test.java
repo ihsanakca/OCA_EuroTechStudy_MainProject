@@ -20,9 +20,6 @@ public class Test extends Acc{
 		Acc obj =new Test();// reference type is Acc, it means limited accessing
 
 
-		Test t =(Test) obj;        //What is the difference between obj and t and a
-
-		Acc a=new Acc();
 
 
 
