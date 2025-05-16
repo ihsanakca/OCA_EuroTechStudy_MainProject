@@ -11,7 +11,7 @@ public class Q074_Test {
 	public static void main(String[] args)  {
 		Q074_Test ex = new Q074_Test();
 		int cardNo = 12344;
-	//	ex.readCard(cardNo);   // line n2
+//		ex.readCard(cardNo);   // line n2
 		ex.checkCard(cardNo);  // line n3
 	}
 }

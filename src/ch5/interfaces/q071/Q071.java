@@ -26,7 +26,9 @@ public class Q071{
 		C2 s = (C2) obj2;
 		I t = (I) obj1;
 //
-		t.displayI();s.displayC2();
+		t.displayI();
+		s.displayC2();
+
 
 	}
 }

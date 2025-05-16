@@ -3,7 +3,8 @@ package ch5.interfaces.q063;
 interface Exportable {
 	public abstract void export();
 }
-class Tool implements Exportable {//line1
+class Tool implements Exportable {
+	//line1
 	public void export() {
 		System.out.println("Tool::export");
 	}
